@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "SourceSans3";
+    src: url(../fonts/source-sans-3/SourceSans3-VariableFont_wght.ttf);
+}
+
+/* Menu Transition */
+
+.menu-enter-from,
+.menu-leave-to {
+    opacity: 0;
+}
+
+.menu-enter-to,
+.menu-leave-from {
+    opacity: 1;
+}
+
+.menu-enter-active,
+.menu-leave-active {
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* Page Transition */
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s ease-in-out;
+}
+
+.page-enter-from,
+.page-leave-to {
+    opacity: 0;
+    filter: blur(0.5rem);
+    transform: translateY(1rem)
+}

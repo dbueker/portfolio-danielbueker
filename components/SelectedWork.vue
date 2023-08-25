@@ -1,0 +1,28 @@
+<script setup>
+defineProps(['color', 'image', 'subheadline', 'headline'])
+
+import Teaser from './Teaser.vue'
+import DBStreckenagentTeaser from '../assets/DBStreckenagentTeaser.png'
+import HEKTeaser from '../assets/HEKTeaser.png'
+import LightelligenceTeaser from '../assets/LightelligenceTeaser.png'
+</script>
+
+<template>
+    <div class="space-y-4">
+        <div>
+        <NuxtLink to="/db-streckenagent">
+            <Teaser color="streckenagent" :image=DBStreckenagentTeaser subheadline="DB Streckenagent" headline="Compare mobility options at your location"/>
+        </NuxtLink>
+        </div>
+        <div>
+        <NuxtLink to="/hek-service-app">
+            <Teaser color="hek" :image=HEKTeaser subheadline="HEK Service App" headline="Digital companion for health insurance"/>
+        </NuxtLink>
+        </div>
+        <div>
+        <NuxtLink to="/lightelligence">
+            <Teaser color="lightelligence" :image=LightelligenceTeaser subheadline="Lightelligence" headline="Design system for a scalable IoT-platform"/>
+        </NuxtLink>
+        </div>
+    </div>
+</template>
