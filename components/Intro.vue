@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[85vh] lg:h-screen min-h-[560px] grid grid-rows-3 mb-40">
+    <div class="h-[90vh] lg:h-screen min-h-[560px] grid grid-rows-3 mb-40">
         <div class="row-start-2">
             <p class="text-lightmode-on-background dark:text-darkmode-on-background  text-subtitle-mobile lg:text-subtitle-desktop">Daniel Büker</p>
             <p class="text-lightmode-on-background dark:text-darkmode-on-background text-title-mobile lg:text-title-desktop">Digital Product Designer</p>
