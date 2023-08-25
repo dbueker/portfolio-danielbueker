@@ -27,7 +27,7 @@ onBeforeUnmount(() => {
 
 <template>
     <div class="group z-20 fixed top-6 right-6 rounded transition ease-in-out delay-75 duration-500" :class="scrolled && !open ? 'shadow-navbar' : '', scrolled ? 'scale-[103%]' : ''">
-        <button @click="open = !open" class="rounded min-w-[100px] py-6 px-10 bg-lightmode-primary dark:bg-darkmode-primary text-button text-lightmode-on-primary dark:text-darkmode-on-primary hover:bg-accent hover:text-on-accent transition ease-in-out duration-200" :class="open ? 'bg-accent text-on-accent dark:bg-accent dark:text-on-accent' : ''" >{{ open ? 'Close' : 'Menu' }}</button>
+        <button @click="open = !open" class="rounded min-w-[100px] py-6 px-10  text-button hover:bg-accent hover:text-on-accent transition ease-in-out duration-200" :class="open ? 'bg-accent text-on-accent dark:bg-accent dark:text-on-accent' : 'bg-lightmode-primary dark:bg-darkmode-primary text-lightmode-on-primary dark:text-darkmode-on-primary'" >{{ open ? 'Close' : 'Menu' }}</button>
     </div>
     <div>
         <Transition name="menu">
