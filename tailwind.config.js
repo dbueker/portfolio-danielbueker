@@ -158,6 +158,9 @@ module.exports = {
         'navbar': '0 3px 6px 0px rgba(0, 0, 0, 0.2)',
       }
     },
+    future: {
+      hoverOnlyWhenSupported: true,
+    }
   },
   plugins: [],
 }
