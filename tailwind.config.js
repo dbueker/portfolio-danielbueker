@@ -13,7 +13,7 @@ module.exports = {
       sans: ['"SourceSans3"', 'sans-serif']
     },
     fontSize: {
-      'title-mobile': ['60px', {
+      'title-mobile': ['56px', {
         lineHeight: '110%',
         fontWeight: '600',
         letterSpacing: '-0.03em',
@@ -23,7 +23,7 @@ module.exports = {
         fontWeight: '600',
         letterSpacing: '-0.03em',
       }],
-      'subtitle-mobile': ['60px', {
+      'subtitle-mobile': ['56px', {
         lineHeight: '110%',
         fontWeight: '300',
         letterSpacing: '-0.03em',
@@ -34,7 +34,7 @@ module.exports = {
         letterSpacing: '-0.03em',
         fontStretch: '150%'
       }],
-      'headline-mobile': ['50px', {
+      'headline-mobile': ['48px', {
         lineHeight: '110%',
         fontWeight: '600',
         letterSpacing: '-0.01em',
@@ -74,7 +74,7 @@ module.exports = {
         fontWeight: '600',
         letterSpacing: '0.03em',
       }],
-      'body-large-mobile': ['30px', {
+      'body-large-mobile': ['28px', {
         lineHeight: '140%',
         fontWeight: '400',
         letterSpacing: '0.015em',
@@ -84,7 +84,7 @@ module.exports = {
         fontWeight: '400',
         letterSpacing: '0.015em',
       }],
-      'body-large-bold-mobile': ['30px', {
+      'body-large-bold-mobile': ['28px', {
         lineHeight: '110%',
         fontWeight: '500',
       }],
