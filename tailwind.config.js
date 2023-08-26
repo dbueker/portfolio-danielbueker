@@ -34,7 +34,7 @@ module.exports = {
         letterSpacing: '-0.03em',
         fontStretch: '150%'
       }],
-      'headline-mobile': ['48px', {
+      'headline-mobile': ['36px', {
         lineHeight: '110%',
         fontWeight: '600',
         letterSpacing: '-0.01em',
@@ -74,7 +74,7 @@ module.exports = {
         fontWeight: '600',
         letterSpacing: '0.03em',
       }],
-      'body-large-mobile': ['28px', {
+      'body-large-mobile': ['26px', {
         lineHeight: '140%',
         fontWeight: '400',
         letterSpacing: '0.015em',
@@ -84,7 +84,7 @@ module.exports = {
         fontWeight: '400',
         letterSpacing: '0.015em',
       }],
-      'body-large-bold-mobile': ['28px', {
+      'body-large-bold-mobile': ['26px', {
         lineHeight: '110%',
         fontWeight: '500',
       }],
