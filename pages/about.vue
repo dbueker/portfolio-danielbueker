@@ -6,7 +6,7 @@ import Portrait from '../assets/Portrait.jpg'
     <div>
       <div class="px-6">
         <div class= "mx-auto lg:max-w-screen-xl">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-y-20 md:gap-x-10 place-items-center place-content-center mb-24 md:mb-28 lg:mb-32 pt-36 md:pt-40 lg:pt-48 text-lightmode-on-background dark:text-darkmode-on-background">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-y-20 md:gap-x-10 place-items-center place-content-center mb-24 md:mb-28 lg:mb-32 pt-20 text-lightmode-on-background dark:text-darkmode-on-background">
             <div class="space-y-6">
             <p class="text-title-mobile lg:text-title-desktop">I'm Daniel 👋</p>
             <div class="space-y-10">
