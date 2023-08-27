@@ -9,8 +9,8 @@ import Chapter from "../components/Chapter.vue"
       <div class="px-6">
         <div class= "mx-auto lg:max-w-screen-xl space-y-24 md:space-y-28 lg:space-y-32">
             <div class="space-y-6 md:max-w-screen-md md:mx-auto">
-                <p class="text-lightmode-on-background dark:text-darkmode-on-background text-body-large-mobile lg:text-body-large-desktop" >Contact Information</p>
-                    <div class="text-body-mobile lg:text-body-desktop text-lightmode-on-background dark:text-darkmode-on-background">
+                <p class="text-lightmode-on-background dark:text-darkmode-on-background text-body " >Contact Information</p>
+                    <div class="text-body  text-lightmode-on-background dark:text-darkmode-on-background">
                     <p>Griesstraße 52</p>
                     <p>20535 Hamburg</p>
                     <p>Mail: da.bueker@gmail.com</p>

@@ -27,10 +27,10 @@ const colorVariantsBottom = {
   <div class="grid grid-rows-auto gap-4 md:max-w-screen-md md:mx-auto">
     <div v-for="modal in modals">
       <div class="text-on-utility-dark py-2 px-6 rounded-t-[16px]" :class="colorVariantsTop[modal.color]">
-        <p class="text-body-bold-mobile lg:text-body-bold-desktop">{{ modal.headline }}</p>
+        <p class="text-body-bold">{{ modal.headline }}</p>
       </div>
       <div class="text-on-utility-light pt-4 pb-6 px-6 rounded-b-[16px] w-full" :class=colorVariantsBottom[modal.color]>
-        <p class="text-body-mobile lg:text-body-desktop">{{ modal.text }}</p>
+        <p class="text-body-semibold">{{ modal.text }}</p>
       </div>
     </div>
   </div>

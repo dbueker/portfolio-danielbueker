@@ -21,6 +21,6 @@ let open = ref(false);
             <p class="text-body-large-bold-mobile lg:text-headline-desktop group-hover:opacity-70 transition-all duration-200 ease-in-out">{{ headline }}</p>
             <img :src=icon alt="" class="h-16 w-16"/>
         </div>
-        <p v-if="open" class="text-body-mobile lg:text-body-desktop">{{ text }}</p>
+        <p v-if="open" class="text-body ">{{ text }}</p>
     </button>
 </template>

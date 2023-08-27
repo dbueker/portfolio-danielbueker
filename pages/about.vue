@@ -10,7 +10,7 @@ import Portrait from '../assets/Portrait.jpg'
             <div class="space-y-6">
             <p class="text-title-mobile lg:text-title-desktop">I'm Daniel 👋</p>
             <div class="space-y-10">
-              <p class="text-body-mobile lg:text-body-desktop">I’m a Digital Product Designer and currently live in the wonderful city of Hamburg. I strive to make our life as networked humans easier by creating digital services that are as simple, reliable and fun as possible. If you have problems to be solved or just want to chat, feel free to contact me!</p>
+              <p class="text-body ">I’m a Digital Product Designer and currently live in the wonderful city of Hamburg. I strive to make our life as networked humans easier by creating digital services that are as simple, reliable and fun as possible. If you have problems to be solved or just want to chat, feel free to contact me!</p>
             </div>
             </div>
             <img :src=Portrait alt="Portrait of Daniel" class="rounded w-full md:w-fit md:max-h-[640px]" />

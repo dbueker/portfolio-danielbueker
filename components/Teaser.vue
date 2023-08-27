@@ -14,7 +14,7 @@ const colorVariants = {
             <img :src=image alt="" class="object-scale-down"/>
         </div>
         <div class="pt-8 pb-14 space-y-6 self-center lg:col-span-3 lg:order-first">
-            <p class="text-chapter-mobile lg:text-chapter-desktop text-center lg:text-left">{{ subheadline }}</p>
+            <p class="text-chapter  text-center lg:text-left">{{ subheadline }}</p>
             <p class="text-headline-mobile lg:text-headline-desktop text-center lg:text-left">{{ headline }}</p>
         </div>
     </div>

@@ -44,65 +44,32 @@ module.exports = {
         fontWeight: '600',
         letterSpacing: '-0.01em',
       }],
-      'chapter-mobile': ['18px', {
+      'chapter': ['20px', {
         lineHeight: '130%',
         fontWeight: '400',
         letterSpacing: '-0.01em',
       }],
-      'chapter-desktop': ['20px', {
-        lineHeight: '130%',
-        fontWeight: '400',
-        letterSpacing: '-0.01em',
+      'body': ['26px', {
+        lineHeight: '160%',
+        fontWeight: '350',
+        letterSpacing: '0.03em',
       }],
-      'body-mobile': ['22px', {
+      'body-semibold': ['26px', {
         lineHeight: '160%',
         fontWeight: '400',
         letterSpacing: '0.03em',
       }],
-      'body-desktop': ['24px', {
-        lineHeight: '160%',
-        fontWeight: '400',
-        letterSpacing: '0.03em',
-      }],
-      'body-bold-mobile': ['22px', {
+      'body-bold': ['26px', {
         lineHeight: '160%',
         fontWeight: '600',
         letterSpacing: '0.03em',
       }],
-      'body-bold-desktop': ['24px', {
+      'body-small': ['16px', {
         lineHeight: '160%',
-        fontWeight: '600',
+        fontWeight: '300',
         letterSpacing: '0.03em',
       }],
-      'body-large-mobile': ['26px', {
-        lineHeight: '140%',
-        fontWeight: '400',
-        letterSpacing: '0.015em',
-      }],
-      'body-large-desktop': ['36px', {
-        lineHeight: '140%',
-        fontWeight: '400',
-        letterSpacing: '0.015em',
-      }],
-      'body-large-bold-mobile': ['26px', {
-        lineHeight: '110%',
-        fontWeight: '500',
-      }],
-      'body-large-bold-desktop': ['36px', {
-        lineHeight: '110%',
-        fontWeight: '500',
-      }],
-      'body-small-mobile': ['16px', {
-        lineHeight: '160%',
-        fontWeight: '400',
-        letterSpacing: '0.03em',
-      }],
-      'body-small-desktop': ['14px', {
-        lineHeight: '160%',
-        fontWeight: '400',
-        letterSpacing: '0.03em',
-      }],
-      'button': ['24px', {
+      'button': ['26px', {
         lineHeight: '110%',
         fontWeight: '400',
         letterSpacing: '0.02em',
