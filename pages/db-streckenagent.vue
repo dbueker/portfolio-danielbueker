@@ -22,7 +22,7 @@ import DBStreckenagent6B from "../assets/DBStreckenagent6B.jpg"
       <Header subtitle="DB Streckenagent" title="Compare mobility options at your location"><ImageComponentHeader :image1=DBStreckenagent1A :image2=DBStreckenagent1B /></Header>
       <div class="px-6">
         <div class= "mx-auto lg:max-w-screen-xl space-y-24 md:space-y-28 lg:space-y-32">
-            <CaseFacts product="Mobile App" role="UX/UI Design" date="2023 - ongoing" credits="Mobimeo GmbH" client="Deutsche Bahn AG" />
+            <CaseFacts product="Mobile App" role="UX/UI Design" date="2023 - ongoing" credits="Mobimeo" client="Deutsche Bahn" />
             <Chapter headline="About the Project" text="DB Streckenagent combines public transport and sharing providers to allow seamless transport in all regions of Germany. As a UX/UI Designer at Mobimeo one of my main areas of expertise was the flow for discovering different transport options on the map."/>
             <Chapter headline="The Situation" text="We were facing the problem that our users needed to subsequently select vehicles from the map to compare them. This pattern would sometimes make the search for a specific type of vehicle a lengthy and frustrating task. To speed up this process and enable users to quickly find a satisfying transport option we developed a list view showing vehicles and stations around the user's location."/>
             <HowMightWe problem="As a user I have no detailed overview of mobility options at my location so I need to subsequently select vehicles to compare them" howMightWe="Create a user friendly overview of available mobility options" solution="Support users to efficiently select a mobility option they are happy with"/>

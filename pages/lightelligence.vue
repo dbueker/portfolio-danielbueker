@@ -18,7 +18,7 @@ import Lightelligence3B from "../assets/Lightelligence3B.jpg"
       <Header subtitle="Lightelligence" title="Design system for a scalable IoT-platform"><ImageComponentHeader :image1=Lightelligence1A :image2=Lightelligence1B /></Header>
       <div class="px-6">
         <div class= "mx-auto lg:max-w-screen-xl space-y-24 md:space-y-28 lg:space-y-32">
-            <CaseFacts product="Web platform" role="UI Design" date="2019 - 2020" credits="deepblue networks AG" client="OSRAM GmbH" />
+            <CaseFacts product="Web platform" role="UI Design" date="2019 - 2020" credits="deepblue networks" client="OSRAM" />
             <Chapter headline="About the Project" text="Lightelligence is a platform to create custom IoT applications for building and facility management. Combining the software with sensors and other devices, clients are able to operate smart buildings or whole facilites and gain insights in details like energy savings or sensor lifespans. As a UI Designer at deepblue networks I contributed to building, maintaining and documenting the design system and multiple components for the platform."/>
             <Chapter headline="The Situation" text="My team at deepblue networks was tasked with the design of components that would be utilized by the clients to build their custom IoT appclications. Because of the wide range of applications for different industries, we needed to build a scalable design system with a strong visual language to ensure a uniform user experience."/>
             <HowMightWe problem="As a user I need a custom application for managing my building or facility" howMightWe="Create a scalable and modular component library" solution="Let clients easily build and use the app they desire"/>
