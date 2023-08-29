@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-20 min-h-[75vh]">
+    <div class="pt-20 min-h-[60vh]">
         <div class="text-lightmode-on-background dark:text-darkmode-on-background pb-12 md:pb-20 lg:max-w-[800px]">
             <p class="text-subtitle-mobile lg:text-subtitle-desktop">Daniel Büker</p>
             <p class="text-title-mobile lg:text-title-desktop">Digital Product Designer</p>
