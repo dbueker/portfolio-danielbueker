@@ -17,7 +17,7 @@ const lines = ref([{ leading: 'Product', trailing:product }, {leading: 'My Role'
     <div>
     <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div v-for="line in lines">
-            <div class="space-y-2 bg-lightmode-surface dark:bg-darkmode-surface rounded p-10 h-full">
+            <div class="space-y-2 bg-lightmode-surface dark:bg-darkmode-surface rounded px-10 py-6 h-full">
                 <p class="text-chapter text-lightmode-on-background-subdued dark:text-darkmode-on-background-subdued">{{ line.leading }}</p>
                 <p class="text-body-semibold text-lightmode-on-surface dark:text-darkmode-on-surface">{{ line.trailing }}</p>
             </div>

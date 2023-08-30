@@ -34,14 +34,24 @@ module.exports = {
         letterSpacing: '-0.03em',
         fontStretch: '150%'
       }],
-      'headline-mobile': ['36px', {
+      'h1-mobile': ['36px', {
         lineHeight: '110%',
         fontWeight: '600',
         letterSpacing: '-0.01em',
       }],
-      'headline-desktop': ['60px', {
+      'h1-desktop': ['56px', {
         lineHeight: '110%',
         fontWeight: '600',
+        letterSpacing: '-0.01em',
+      }],
+      'h2-mobile': ['32px', {
+        lineHeight: '110%',
+        fontWeight: '500',
+        letterSpacing: '-0.01em',
+      }],
+      'h2-desktop': ['48px', {
+        lineHeight: '110%',
+        fontWeight: '500',
         letterSpacing: '-0.01em',
       }],
       'chapter': ['20px', {
@@ -79,13 +89,14 @@ module.exports = {
       'lightmode-primary': '#000000',
       'lightmode-on-primary': '#FFFFFF',
       'lightmode-on-primary-subdued': '#808080',
-      'accent': '#455ce9',
+      'accent': '#3C56EC',
       'on-accent': '#FFFFFF',
       'lightmode-background': '#FFFFFF',
       'lightmode-on-background': '#1D1B20',
       'lightmode-on-background-subdued': '#808080',
       'lightmode-surface': '#F6F8F9',
       'lightmode-on-surface': '#1D1B20',
+      'lightmode-border': '#D7DCE1',
       'darkmode-primary': '#2B2930',
       'darkmode-on-primary': '#FFFFFF',
       'darkmode-on-primary-subdued': '#949494',
@@ -94,6 +105,7 @@ module.exports = {
       'darkmode-on-background-subdued': '#949494',
       'darkmode-surface': '#1D1B20',
       'darkmode-on-surface': '#FFFFFF',
+      'darktmode-border': '#3C414B',
       'secondary-streckenagent': '#061350',
       'secondary-hek': '#9CE0F3',
       'secondary-lightelligence': '#FF6000',
