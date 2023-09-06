@@ -15,7 +15,7 @@ defineProps({
 
 <template >
     <div v-if="image1 !== null && image2 === null && image3 === null">
-        <img :src=image1 alt="" class="rounded w-full"/>
+        <img :src=image1 alt="" class="w-full"/>
     </div>
 
     <div v-else-if="image1 !== null && image2 !== null && image3 === null" class="grid grid-cols-1 lg:grid-cols-2">

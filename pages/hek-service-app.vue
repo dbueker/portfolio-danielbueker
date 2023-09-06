@@ -1,6 +1,6 @@
 <script setup>
 import Header from "../components/Header.vue"
-import ImageComponentHeader from "../components/ImageComponentHeader.vue"
+import ImageComponentFullscreen from "../components/ImageComponentFullscreen.vue"
 import ImageComponent from "../components/ImageComponent.vue"
 import Chapter from "../components/Chapter.vue"
 import HowMightWe from "../components/HowMightWe.vue"
@@ -15,9 +15,8 @@ import HEK3B from "../assets/HEK3B.jpg"
 
 <template>
     <div>
-      <Header subtitle="HEK Service App" title="Digital companion for health insurance"><ImageComponentHeader :image1=HEK1A :image2=HEK1B /></Header>
-      <div class="px-6">
-        <div class= "mx-auto lg:max-w-screen-xl space-y-24 md:space-y-28 lg:space-y-32">
+      <Header subtitle="HEK Service App" title="Digital companion for health insurance"><ImageComponentFullscreen :image1=HEK1A :image2=HEK1B /></Header>
+        <div class="space-y-24 md:space-y-28 lg:space-y-32">
             <CaseFacts product="Mobile App" role="UX/UI Design" date="2020 - 2021" credits="deepblue networks" client="HEK - Hanseatische Krankenkasse" />
             <Chapter headline="About the Project" text="The HEK Service App provides easy access to health insurance services. It allows users to keep track of their most sensitive data and communicate with their insurance provider. As a UX Designer at deepblue networks I was responsible for creating the whole concept and user interface of the app, as well as handing it over to the external development team, taking care of the whole design process from start to finish."/>
             <Chapter headline="The Situation" text="Knowing which services are covered by your health insurance provider and how to claim them is not obvious in Germany’s public healthcare system. Lowering the barrier to access those services with an app is not only beneficial for users but also an important trait of health insurance providers when it comes to winning new clients. At deepblue networks I was tasked to design an app that serves as a gateway for exchanging information and documents between the HEK and their clients and gives access to the HEK's services."/>
@@ -28,6 +27,5 @@ import HEK3B from "../assets/HEK3B.jpg"
             <ImageComponent :image1=HEK3A :image2=HEK3B />
             <!--<Chapter headline="Be concise without being dull" text="Since users trust the company with their health data, we defined the tone of voice to be always friendly and straight to the point, regardless of the level of importance. To lighten this up, rewarding success screens and playful empty states played an important role in achieving a well rounded package and a great user experience." />-->
         </div>
-      </div>
     </div>
 </template>

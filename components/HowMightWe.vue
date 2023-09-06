@@ -24,7 +24,7 @@ const colorVariantsBottom = {
 </script>
 
 <template>
-  <div class="grid grid-rows-auto gap-4 md:max-w-screen-md md:mx-auto">
+  <div class="px-6 grid grid-rows-auto gap-4 md:max-w-screen-md md:mx-auto">
     <div v-for="modal in modals">
       <div class="text-on-utility-dark py-2 px-6 rounded-t-[16px]" :class="colorVariantsTop[modal.color]">
         <p class="text-body-bold">{{ modal.headline }}</p>

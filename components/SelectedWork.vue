@@ -8,7 +8,7 @@ import LightelligenceTeaser from '../assets/LightelligenceTeaser.png'
 </script>
 
 <template>
-    <div class="space-y-4">
+    <div class="px-6 mx-auto lg:max-w-screen-xl space-y-4">
         <div>
         <NuxtLink to="/db-streckenagent">
             <Teaser color="streckenagent" :image=DBStreckenagentTeaser subheadline="DB Streckenagent" headline="Compare mobility options at your location"/>

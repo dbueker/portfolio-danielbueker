@@ -5,11 +5,9 @@ import SelectedWork from '../components/SelectedWork.vue'
 
 <template>
     <div>
-      <div class="px-6">
-        <div class= "mx-auto lg:max-w-screen-xl">
-          <Intro />
-          <SelectedWork />
-        </div>
+      <div class="mx-auto lg:max-w-screen-xl">
+        <Intro />
+        <SelectedWork />
       </div>
     </div>
 </template>
