@@ -3,7 +3,7 @@
 
 <template>
     <div class="bg-lightmode-background dark:bg-darkmode-background px-6 py-20">
-        <div class="space-y-8 md:space-y-0 md:grid md:grid-cols-4 md:gap-20 lg:mx-auto lg:max-w-screen-xl">
+        <div class="space-y-16 md:space-y-0 md:grid md:grid-cols-4 md:gap-20 lg:mx-auto lg:max-w-screen-xl">
             <p class="text-chapter text-lightmode-on-background dark:text-darkmode-on-background">How I work</p>
             <div class="space-y-10 md:col-span-3">
                 <div class="space-y-10">
