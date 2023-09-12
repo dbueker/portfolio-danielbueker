@@ -116,7 +116,7 @@ module.exports = {
       'utility-blue': '#1455C0',
       'utility-lightblue': '#E0EFFB',
       'utility-green': '#508B1B',
-      'utility-lightgreen': '#EBF7DD',
+      'utility-lightgreen': '#E9F8D9',
       'on-utility-light': '#1D1B20',
       'on-utility-dark': '#FFFFFF'
     },
