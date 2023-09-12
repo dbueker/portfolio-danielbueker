@@ -1,11 +1,11 @@
 <script setup>
-defineProps(['color', 'image', 'subheadline', 'headline'])
+defineProps(['color', 'image', 'subheadline', 'headline']);
 
 const colorVariants = {
     streckenagent: "bg-secondary-streckenagent text-on-secondary-dark",
     hek: "bg-secondary-hek text-on-secondary-light",
     lightelligence: "bg-secondary-lightelligence text-on-secondary-dark"
-}
+};
 </script>
 
 <template>

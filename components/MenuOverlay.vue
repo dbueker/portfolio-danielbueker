@@ -1,6 +1,5 @@
 <script setup>
-import { ref, onBeforeUnmount, onMounted } from "vue"
-import Button from "./Button.vue"
+import { ref, onBeforeUnmount, onMounted } from "vue";
 
 //Shadow on scroll
 const scrolled = ref(false);
@@ -14,15 +13,15 @@ function onScroll() {
         scrolled.value = false;
         }
     }
-}
+};
 
 onMounted(() => {
-    window.addEventListener('scroll', onScroll)
-})
+    window.addEventListener('scroll', onScroll);
+});
 
 onBeforeUnmount(() => {
-    window.removeEventListener('scroll', onScroll)
-})
+    window.removeEventListener('scroll', onScroll);
+});
 </script>
 
 <template>

@@ -1,10 +1,9 @@
 <script setup>
-defineProps(['color', 'image', 'subheadline', 'headline'])
+defineProps(['color', 'image', 'subheadline', 'headline']);
 
-import Teaser from './Teaser.vue'
-import DBStreckenagentTeaser from '../assets/DBStreckenagentTeaser.png'
-import HEKTeaser from '../assets/HEKTeaser.png'
-import LightelligenceTeaser from '../assets/LightelligenceTeaser.png'
+import DBStreckenagentTeaser from '../assets/DBStreckenagentTeaser.png';
+import HEKTeaser from '../assets/HEKTeaser.png';
+import LightelligenceTeaser from '../assets/LightelligenceTeaser.png';
 </script>
 
 <template>

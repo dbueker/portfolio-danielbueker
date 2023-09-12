@@ -1,6 +1,4 @@
 <script setup>
-import Divider from './Divider.vue'
-import TextTeaser from './TextTeaser.vue'
 </script>
 
 <template>

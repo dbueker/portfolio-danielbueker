@@ -10,7 +10,7 @@ defineProps({
   image3: {
     default: null
   }
-})
+});
 </script>
 
 <template >

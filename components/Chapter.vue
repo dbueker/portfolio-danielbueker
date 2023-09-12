@@ -7,7 +7,7 @@ defineProps({
     default: null,
     required: true
   }
-})
+});
 </script>
 
 <template>

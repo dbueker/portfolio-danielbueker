@@ -1,6 +1,4 @@
 <script setup>
-import Intro from '../components/Intro.vue'
-import SelectedWork from '../components/SelectedWork.vue'
 </script>
 
 <template>

@@ -1,6 +1,5 @@
 <script setup>
-defineProps(['headline', 'text'])
-import Divider from './Divider.vue'
+defineProps(['headline', 'text']);
 </script>
 
 <template>

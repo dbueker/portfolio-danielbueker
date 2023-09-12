@@ -1,6 +1,5 @@
 <script setup>
-import Skillset from '../components/Skillset.vue'
-import Portrait from '../assets/Portrait.jpg'
+import Portrait from '../assets/Portrait.jpg';
 </script>
 
 <template>

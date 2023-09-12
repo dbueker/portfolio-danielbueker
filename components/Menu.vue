@@ -1,5 +1,4 @@
 <script setup>
-import ButtonSmall from './ButtonSmall.vue';
 </script>
 
 <template>

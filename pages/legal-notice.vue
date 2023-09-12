@@ -1,6 +1,4 @@
 <script setup>
-import Header from "../components/Header.vue"
-import Chapter from "../components/Chapter.vue"
 </script>
 
 <template>

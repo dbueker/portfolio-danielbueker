@@ -1,16 +1,10 @@
 <script setup>
-import Header from "../components/Header.vue"
-import ImageComponentFullscreen from "../components/ImageComponentFullscreen.vue"
-import ImageComponent from "../components/ImageComponent.vue"
-import Chapter from "../components/Chapter.vue"
-import HowMightWe from "../components/HowMightWe.vue"
-
-import Lightelligence1A from "../assets/Lightelligence1A.jpg"
-import Lightelligence1B from "../assets/Lightelligence1B.jpg"
-import Lightelligence2A from "../assets/Lightelligence2A.jpg"
-import Lightelligence2B from "../assets/Lightelligence2B.jpg"
-import Lightelligence3A from "../assets/Lightelligence3A.jpg"
-import Lightelligence3B from "../assets/Lightelligence3B.jpg"
+import Lightelligence1A from "../assets/Lightelligence1A.jpg";
+import Lightelligence1B from "../assets/Lightelligence1B.jpg";
+import Lightelligence2A from "../assets/Lightelligence2A.jpg";
+import Lightelligence2B from "../assets/Lightelligence2B.jpg";
+import Lightelligence3A from "../assets/Lightelligence3A.jpg";
+import Lightelligence3B from "../assets/Lightelligence3B.jpg";
 </script>
 
 <template>

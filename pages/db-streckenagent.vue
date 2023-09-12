@@ -1,20 +1,14 @@
 <script setup>
-import Header from "../components/Header.vue"
-import ImageComponentFullscreen from "../components/ImageComponentFullscreen.vue"
-import ImageComponent from "../components/ImageComponent.vue"
-import Chapter from "../components/Chapter.vue"
-import HowMightWe from "../components/HowMightWe.vue"
-
-import DBStreckenagent1A from "../assets/DBStreckenagent1A.jpg"
-import DBStreckenagent1B from "../assets/DBStreckenagent1B.jpg"
-import DBStreckenagent2 from "../assets/DBStreckenagent2.jpg"
-import DBStreckenagent3A from "../assets/DBStreckenagent3A.jpg"
-import DBStreckenagent3B from "../assets/DBStreckenagent3B.jpg"
-import DBStreckenagent3C from "../assets/DBStreckenagent3C.jpg"
-import DBStreckenagent4 from "../assets/DBStreckenagent4.jpg"
-import DBStreckenagent5 from "../assets/DBStreckenagent5.jpg"
-import DBStreckenagent6A from "../assets/DBStreckenagent6A.jpg"
-import DBStreckenagent6B from "../assets/DBStreckenagent6B.jpg"
+import DBStreckenagent1A from "../assets/DBStreckenagent1A.jpg";
+import DBStreckenagent1B from "../assets/DBStreckenagent1B.jpg";
+import DBStreckenagent2 from "../assets/DBStreckenagent2.jpg";
+import DBStreckenagent3A from "../assets/DBStreckenagent3A.jpg";
+import DBStreckenagent3B from "../assets/DBStreckenagent3B.jpg";
+import DBStreckenagent3C from "../assets/DBStreckenagent3C.jpg";
+import DBStreckenagent4 from "../assets/DBStreckenagent4.jpg";
+import DBStreckenagent5 from "../assets/DBStreckenagent5.jpg";
+import DBStreckenagent6A from "../assets/DBStreckenagent6A.jpg";
+import DBStreckenagent6B from "../assets/DBStreckenagent6B.jpg";
 </script>
 
 <template>

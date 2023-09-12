@@ -1,6 +1,6 @@
 <script setup>
-import { ref, onBeforeUnmount, onMounted } from "vue"
-import Close from "../assets/Close.svg"
+import { ref, onBeforeUnmount, onMounted } from "vue";
+import Close from "../assets/Close.svg";
 
 //Shadow on scroll
 const scrolled = ref(false);

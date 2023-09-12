@@ -1,16 +1,10 @@
 <script setup>
-import Header from "../components/Header.vue"
-import ImageComponentFullscreen from "../components/ImageComponentFullscreen.vue"
-import ImageComponent from "../components/ImageComponent.vue"
-import Chapter from "../components/Chapter.vue"
-import HowMightWe from "../components/HowMightWe.vue"
-
-import HEK1A from "../assets/HEK1A.jpg"
-import HEK1B from "../assets/HEK1B.jpg"
-import HEK2A from "../assets/HEK2A.jpg"
-import HEK2B from "../assets/HEK2B.jpg"
-import HEK3A from "../assets/HEK3A.jpg"
-import HEK3B from "../assets/HEK3B.jpg"
+import HEK1A from "../assets/HEK1A.jpg";
+import HEK1B from "../assets/HEK1B.jpg";
+import HEK2A from "../assets/HEK2A.jpg";
+import HEK2B from "../assets/HEK2B.jpg";
+import HEK3A from "../assets/HEK3A.jpg";
+import HEK3B from "../assets/HEK3B.jpg";
 </script>
 
 <template>

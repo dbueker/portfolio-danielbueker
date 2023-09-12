@@ -11,7 +11,7 @@ defineProps({
   icon: {
     required: true
   }
-})
+});
 let open = ref(false);
 </script>
 
