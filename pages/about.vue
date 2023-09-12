@@ -13,5 +13,6 @@ import Portrait from '../assets/Portrait.jpg'
           <img :src=Portrait alt="Portrait of Daniel" class="rounded w-full md:w-fit md:max-h-[640px]" />
         </div>
         <Skillset />
+        <HowIWork />
       </div>
 </template>
