@@ -19,18 +19,28 @@ defineProps({
 
 <template >
     <div v-if="image1 !== null && image2 === null && image3 === null">
-        <img :src=image1 alt="" class="w-full"/>
-    </div>
+          <img :src=image1 alt="" class="w-full"/>
+      </div>
 
-    <div v-else-if="image1 !== null && image2 !== null && image3 === null" class="grid grid-cols-1 lg:grid-cols-2">
-        <img :src=image1 alt="" class="mx-auto"/>
-        <img :src=image2 alt="" class="mx-auto"/>
-    </div>
+      <div v-else-if="image1 !== null && image2 !== null && image3 === null && !preventStacking" class="grid grid-cols-1 lg:grid-cols-2">
+          <img :src=image1 alt="" class="mx-auto"/>
+          <img :src=image2 alt="" class="mx-auto"/>
+      </div>
 
+      <div v-else-if="image1 !== null && image2 !== null && image3 === null && preventStacking">
+          <img :src=image1 alt="" class="mx-auto"/>
+          <img :src=image2 alt="" class="mx-auto"/>
+      </div>
 
-    <div v-else class="grid grid-cols-1 lg:grid-cols-2">
-        <img :src=image1 alt="" class="mx-auto"/>
-        <img :src=image2 alt="" class="mx-auto"/>
-        <img :src=image3 alt="" class="lg:col-span-2 mx-auto"/>
-    </div>
+      <div v-else-if="image1 !== null && image2 !== null && image3 !== null && !preventStacking" class="grid grid-cols-1 lg:grid-cols-2">
+          <img :src=image1 alt="" class="mx-auto"/>
+          <img :src=image2 alt="" class="mx-auto"/>
+          <img :src=image3 alt="" class="mx-auto"/>
+      </div>
+
+      <div v-else>
+          <img :src=image1 alt="" class="mx-auto"/>
+          <img :src=image2 alt="" class="mx-auto"/>
+          <img :src=image3 alt="" class="mx-auto"/>
+      </div>
 </template>
