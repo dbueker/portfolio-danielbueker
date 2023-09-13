@@ -9,6 +9,10 @@ defineProps({
   },
   image3: {
     default: null
+  },
+  preventStacking: {
+    type: Boolean,
+    default: false
   }
 });
 </script>
