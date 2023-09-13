@@ -15,7 +15,7 @@ module.exports = {
     fontSize: {
       'title-mobile': ['56px', {
         lineHeight: '110%',
-        fontWeight: '550',
+        fontWeight: '600',
         letterSpacing: '-0.03em',
       }],
       'title-desktop': ['82px', {
