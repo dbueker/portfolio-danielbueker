@@ -15,7 +15,7 @@ module.exports = {
     fontSize: {
       'title-mobile': ['56px', {
         lineHeight: '110%',
-        fontWeight: '600',
+        fontWeight: '550',
         letterSpacing: '-0.03em',
       }],
       'title-desktop': ['82px', {
@@ -36,7 +36,7 @@ module.exports = {
       }],
       'h1-mobile': ['36px', {
         lineHeight: '110%',
-        fontWeight: '600',
+        fontWeight: '550',
         letterSpacing: '-0.01em',
       }],
       'h1-desktop': ['56px', {
@@ -71,7 +71,7 @@ module.exports = {
       }],
       'body-bold': ['26px', {
         lineHeight: '160%',
-        fontWeight: '600',
+        fontWeight: '550',
         letterSpacing: '0.03em',
       }],
       'body-small': ['16px', {
