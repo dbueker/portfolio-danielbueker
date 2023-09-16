@@ -105,7 +105,7 @@ module.exports = {
       'darkmode-on-background-subdued': '#949494',
       'darkmode-surface': '#1D1B20',
       'darkmode-on-surface': '#FFFFFF',
-      'darktmode-border': '#3C414B',
+      'darkmode-border': '#3C414B',
       'secondary-streckenagent': '#061350',
       'secondary-hek': '#9CE0F3',
       'secondary-lightelligence': '#FF6000',
