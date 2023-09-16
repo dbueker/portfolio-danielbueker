@@ -20,7 +20,7 @@ module.exports = {
       }],
       'title-desktop': ['82px', {
         lineHeight: '110%',
-        fontWeight: '600',
+        fontWeight: '550',
         letterSpacing: '-0.03em',
       }],
       'subtitle-mobile': ['56px', {
@@ -41,7 +41,7 @@ module.exports = {
       }],
       'h1-desktop': ['56px', {
         lineHeight: '110%',
-        fontWeight: '600',
+        fontWeight: '550',
         letterSpacing: '-0.01em',
       }],
       'h2-mobile': ['32px', {
