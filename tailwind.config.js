@@ -130,6 +130,15 @@ module.exports = {
       'top-right': '0 40px 0 0',
       'bottom-left': '0 0 40px 0',
       'bottom-right': '0 0 0 40px',
+      'small': '24px',
+      'small-left': '24px 0 0 24px',
+      'small-right': '0 24px 24px 0',
+      'small-top': '24px 24px 0 0',
+      'small-bottom': '0 0 24px 24px',
+      'small-top-left': '24px 0 0 0',
+      'small-top-right': '0 24px 0 0',
+      'small-bottom-left': '0 0 24px 0',
+      'small-bottom-right': '0 0 0 24px',
       'full': '9999px'
     },
     extend: {
