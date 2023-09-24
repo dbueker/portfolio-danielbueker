@@ -8,8 +8,6 @@
         <div class="px-6 space-y-6 md:max-w-screen-md md:mx-auto mb-24 md:mb-28 lg:mb-32">
             <p class="text-lightmode-on-background dark:text-darkmode-on-background text-body " >Contact Information</p>
                 <div class="text-body  text-lightmode-on-background dark:text-darkmode-on-background">
-                <p>Griesstraße 52</p>
-                <p>20535 Hamburg</p>
                 <p>Mail: da.bueker@gmail.com</p>
                 <p>Website: danielbueker.com</p>
             </div>
