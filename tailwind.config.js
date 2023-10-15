@@ -10,39 +10,39 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['"SourceSans3"', 'sans-serif']
+      sans: ['"Inter"', 'sans-serif']
     },
     fontSize: {
       'title-mobile': ['56px', {
-        lineHeight: '110%',
-        fontWeight: '550',
-        letterSpacing: '-0.03em',
+        lineHeight: '105%',
+        fontWeight: '600',
+        letterSpacing: '-0.04em',
       }],
-      'title-desktop': ['82px', {
-        lineHeight: '110%',
-        fontWeight: '550',
-        letterSpacing: '-0.03em',
+      'title-desktop': ['80px', {
+        lineHeight: '105%',
+        fontWeight: '600',
+        letterSpacing: '-0.04em',
       }],
       'subtitle-mobile': ['56px', {
-        lineHeight: '110%',
+        lineHeight: '105%',
         fontWeight: '300',
-        letterSpacing: '-0.03em',
+        letterSpacing: '-0.04em',
       }],
-      'subtitle-desktop': ['82px', {
-        lineHeight: '110%',
+      'subtitle-desktop': ['80px', {
+        lineHeight: '105%',
         fontWeight: '300',
-        letterSpacing: '-0.03em',
+        letterSpacing: '-0.04em',
         fontStretch: '150%'
       }],
       'h1-mobile': ['36px', {
         lineHeight: '110%',
-        fontWeight: '550',
-        letterSpacing: '-0.01em',
+        fontWeight: '600',
+        letterSpacing: '-0.015em',
       }],
       'h1-desktop': ['56px', {
         lineHeight: '110%',
-        fontWeight: '550',
-        letterSpacing: '-0.01em',
+        fontWeight: '600',
+        letterSpacing: '-0.015em',
       }],
       'h2-mobile': ['32px', {
         lineHeight: '110%',
@@ -54,35 +54,30 @@ module.exports = {
         fontWeight: '500',
         letterSpacing: '-0.01em',
       }],
-      'chapter': ['20px', {
-        lineHeight: '130%',
+      'chapter': ['18px', {
+        lineHeight: '140%',
         fontWeight: '400',
         letterSpacing: '-0.01em',
       }],
-      'body': ['26px', {
-        lineHeight: '160%',
-        fontWeight: '350',
-        letterSpacing: '0.03em',
-      }],
-      'body-semibold': ['26px', {
+      'body': ['24px', {
         lineHeight: '160%',
         fontWeight: '400',
-        letterSpacing: '0.03em',
+        letterSpacing: '0.01em',
       }],
-      'body-bold': ['26px', {
+      'body-bold': ['24px', {
         lineHeight: '160%',
         fontWeight: '550',
-        letterSpacing: '0.03em',
+        letterSpacing: '0.01em',
       }],
       'body-small': ['16px', {
         lineHeight: '160%',
-        fontWeight: '300',
-        letterSpacing: '0.03em',
+        fontWeight: '400',
+        letterSpacing: '0.01em',
       }],
-      'button': ['26px', {
+      'button': ['24px', {
         lineHeight: '110%',
         fontWeight: '400',
-        letterSpacing: '0.02em',
+        letterSpacing: '0.01em',
       }],
     },
     colors: {

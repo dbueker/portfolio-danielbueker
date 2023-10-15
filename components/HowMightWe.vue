@@ -31,7 +31,7 @@ const colorVariantsBottom = {
           <p class="text-body-bold">{{ modal.headline }}</p>
         </div>
         <div class="text-on-utility-light pt-4 pb-6 px-6 rounded-small-bottom w-full" :class=colorVariantsBottom[modal.color]>
-          <p class="text-body-semibold">{{ modal.text }}</p>
+          <p class="text-body">{{ modal.text }}</p>
         </div>
       </div>
     </div>
