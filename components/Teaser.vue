@@ -9,7 +9,7 @@ const colorVariants = {
 </script>
 
 <template>
-    <div class="rounded pt-10 px-6 lg:px-12 lg:grid lg:grid-cols-5 lg:min-h-[560px] lg:gap-10 hover:scale-[102%] hover:drop-shadow-xl transition ease-in-out duration-[0.4s]" :class="colorVariants[color]">
+    <div class="rounded pt-10 px-6 lg:px-12 lg:grid lg:grid-cols-5 lg:min-h-[560px] lg:gap-10 md:hover:scale-[102%] md:hover:drop-shadow-xl transition ease-in-out duration-[0.4s]" :class="colorVariants[color]">
         <div class="max-w-xs mx-auto lg:self-center lg:col-span-2 lg:justify-end">
             <img :src=image alt="" class="object-scale-down"/>
         </div>
