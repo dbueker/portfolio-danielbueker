@@ -34,25 +34,15 @@ module.exports = {
         letterSpacing: '-0.04em',
         fontStretch: '150%'
       }],
-      'h1-mobile': ['36px', {
+      'headline-mobile': ['36px', {
         lineHeight: '110%',
         fontWeight: '600',
-        letterSpacing: '-0.015em',
+        letterSpacing: '-0.025em',
       }],
-      'h1-desktop': ['56px', {
+      'headline-desktop': ['56px', {
         lineHeight: '110%',
         fontWeight: '600',
-        letterSpacing: '-0.015em',
-      }],
-      'h2-mobile': ['32px', {
-        lineHeight: '110%',
-        fontWeight: '500',
-        letterSpacing: '-0.01em',
-      }],
-      'h2-desktop': ['48px', {
-        lineHeight: '110%',
-        fontWeight: '500',
-        letterSpacing: '-0.01em',
+        letterSpacing: '-0.03em',
       }],
       'chapter': ['18px', {
         lineHeight: '140%',
@@ -66,7 +56,7 @@ module.exports = {
       }],
       'body-bold': ['24px', {
         lineHeight: '160%',
-        fontWeight: '550',
+        fontWeight: '500',
         letterSpacing: '0.01em',
       }],
       'body-small': ['16px', {

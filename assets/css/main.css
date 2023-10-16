@@ -4,7 +4,30 @@
 
 @font-face {
     font-family: "Inter";
-    src: url(../fonts/inter/Inter-VariableFont.ttf);
+    src: local("Inter Light"), local("Inter-Light"),
+    url("../fonts/Inter/Inter-Light.woff2");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Regular"), local("Inter-Regular"),
+    url("../fonts/Inter/Inter-Regular.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Medium"), local("Inter-Medium"),
+    url("../fonts/Inter/Inter-Medium.woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter SemiBold"), local("Inter-SemiBold"),
+    url("../fonts/Inter/Inter-SemiBold.woff2");
+    font-weight: 600;
 }
 
 /* Menu Transition */

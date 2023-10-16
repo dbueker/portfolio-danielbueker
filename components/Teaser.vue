@@ -15,7 +15,7 @@ const colorVariants = {
         </div>
         <div class="pt-8 pb-14 space-y-6 self-center lg:col-span-3 lg:order-first">
             <p class="text-chapter  text-center lg:text-left">{{ subheadline }}</p>
-            <p class="text-h1-mobile lg:text-h1-desktop text-center lg:text-left">{{ headline }}</p>
+            <p class="text-headline-mobile lg:text-headline-desktop text-center lg:text-left">{{ headline }}</p>
         </div>
     </div>
 </template>
