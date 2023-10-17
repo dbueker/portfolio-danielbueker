@@ -25,5 +25,5 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <button class="rounded-full h-[56px] w-[56px] grid grid-cols-1 justify-items-center items-center bg-lightmode-primary dark:bg-darkmode-primary md:hover:bg-accent md:hover:text-on-accent md:hover:border-accent transition ease-out delay-75 duration-200" :class="scrolled ? 'scale-[103%] shadow-navbar' : ''">Back to top</button>
+    <button class="rounded-full h-[56px] w-[56px] grid grid-cols-1 justify-items-center items-center bg-lightmode-primary dark:bg-darkmode-primary md:hover:bg-primary md:hover:text-on-primary md:hover:border-primary transition ease-out delay-75 duration-150" :class="scrolled ? 'scale-[103%] shadow-navbar' : ''">Back to top</button>
 </template>

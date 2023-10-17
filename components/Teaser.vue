@@ -2,9 +2,9 @@
 defineProps(['color', 'image', 'subheadline', 'headline']);
 
 const colorVariants = {
-    streckenagent: "bg-secondary-streckenagent text-on-secondary-dark",
-    hek: "bg-secondary-hek text-on-secondary-light",
-    lightelligence: "bg-secondary-lightelligence text-on-secondary-dark"
+    streckenagent: "bg-[#061350] dark:bg-[#202436] text-[#FFFFFF] dark:text-[#FFFFFF]",
+    hek: "bg-gradient-to-tr from-[#F2F3F6] from-10% to-[#9CE0F3] text-[#1D1B20] dark:bg-gradient-to-tr dark:from-[#B6B8BE] dark:from-10% dark:to-[#46869B] dark:text-[#1D1B20]",
+    lightelligence: "bg-gradient-to-br from-[#D52727] via-[#D45500] from-20% to-[#874DBA] text-[#FFFFFF] dark:bg-gradient-to-br dark:from-[#A45858] dark:via-[#9F5F35] dark:from-20% dark:to-[#8565A2] dark:text-[#FFFFFF]dark:"
 };
 </script>
 
