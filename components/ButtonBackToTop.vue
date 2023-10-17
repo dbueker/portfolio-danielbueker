@@ -1,29 +1,14 @@
 <script setup>
-import { ref, onBeforeUnmount, onMounted } from "vue";
+import ArrowTop from '../assets/ArrowTop.svg';
 
-//Shadow on scroll
-const scrolled = ref(false);
-let open = ref(false);
-function onScroll() {
-    if (open.value===false) {
-        if (document.documentElement.scrollTop > 30) {
-        scrolled.value = true;
-        } 
-        else {
-        scrolled.value = false;
-        }
-    }
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
 }
-
-onMounted(() => {
-    window.addEventListener('scroll', onScroll)
-})
-
-onBeforeUnmount(() => {
-    window.removeEventListener('scroll', onScroll)
-})
 </script>
 
 <template>
-    <button class="rounded-full h-[56px] w-[56px] grid grid-cols-1 justify-items-center items-center bg-lightmode-primary dark:bg-darkmode-primary md:hover:bg-primary md:hover:text-on-primary md:hover:border-primary transition ease-out delay-75 duration-150" :class="scrolled ? 'scale-[103%] shadow-navbar' : ''">Back to top</button>
+    <button @click="scrollToTop" class="flex rounded-full min-w-[80px] py-2 px-6 space-x-2 text-button border-2 border-lightmode-on-surface-variant dark:border-darkmode-on-surface-variant text-lightmode-on-surface-variant dark:text-darkmode-on-surface-variant md:hover:scale-[104%] md:active:scale-[102%] transition ease-in-out duration-200"><p>Back to top</p><img :src=ArrowTop alt="Arrow facing upwards"></button>
 </template>
