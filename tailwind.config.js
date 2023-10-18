@@ -72,7 +72,7 @@ module.exports = {
     },
     colors: {
       //layout lightmode
-      'lightmode-primary': '#0C7C7E',
+      'lightmode-primary': '#129098',
       'lightmode-on-primary': '#FFFFFF',
       'lightmode-background': '#FFFFFF',
       'lightmode-on-background': '#1D1B20',
@@ -84,7 +84,7 @@ module.exports = {
       'lightmode-on-surface-variant-subdued': '#808080',
       'lightmode-border': '#D7DCE1',
       //layout darkmode
-      'darkmode-primary': '#67FFC8',
+      'darkmode-primary': '#00E0C6',
       'darkmode-on-primary': '#000000',
       'darkmode-background': '#000000',
       'darkmode-on-background': '#FFFFFF',
