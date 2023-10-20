@@ -15,7 +15,7 @@
                 <Divider />
                 </div>
                 <div class="space-y-10">
-                <AboutContent headline="🥳  Work should be fun" text="I think it’s important to celebrate successes as well as knowing how to support one another if things don’t go as planned. Always put people first and let us make most out of the time we spend together."/>
+                <AboutContent headline="🥳  Work should be fun" text="I think it’s important to celebrate successes as well as being able to support one another if things don’t go as planned. Always put people first and let us make most out of the time we spend together."/>
                 </div>
             </div>
         </div>
