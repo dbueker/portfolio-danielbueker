@@ -15,7 +15,7 @@
                 <Divider />
                 </div>
                 <div class="space-y-10">
-                <AboutContent headline="Design Operations" text="Wether it’s building a design system or setting your products tone and voice, I always thrive to create a reliable foundation for my work. "/>
+                <AboutContent headline="Design Operations" text="Wether it’s building a design system or defining cross-team workflows, I always thrive to create a reliable foundation for my work. "/>
                 </div>
             </div>
         </div>
