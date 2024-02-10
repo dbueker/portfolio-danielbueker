@@ -20,7 +20,7 @@ import LightelligenceTeaser from '../assets/LightelligenceTeaser.png';
         </div>
         <div>
         <NuxtLink to="/lightelligence">
-            <Teaser color="lightelligence" :image=LightelligenceTeaser subheadline="Lightelligence" headline="Design system for a scalable IoT-platform"/>
+            <Teaser color="lightelligence" :image=LightelligenceTeaser subheadline="OSRAM Lightelligence" headline="Design system for a scalable IoT-platform"/>
         </NuxtLink>
         </div>
     </div>

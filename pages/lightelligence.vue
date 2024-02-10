@@ -9,7 +9,7 @@ import Lightelligence3B from "../assets/Lightelligence3B.jpg";
 
 <template>
     <div>
-      <Header subtitle="Lightelligence" title="Design system for a scalable IoT-platform"><ImageComponentFullscreen :image1=Lightelligence1A :image2=Lightelligence1B /></Header>
+      <Header subtitle="OSRAM Lightelligence" title="Design system for a scalable IoT-platform"><ImageComponentFullscreen :image1=Lightelligence1A :image2=Lightelligence1B /></Header>
         <div class="space-y-24 md:space-y-28 lg:space-y-32">
             <CaseFacts product="Web platform" role="UI Design" date="2019 - 2020" credits="deepblue networks" client="OSRAM" />
             <Chapter headline="About the Project" text="Lightelligence is a platform to create custom IoT applications for building and facility management. Combining the software with sensors and other devices, clients are able to operate smart buildings or whole facilites and gain insights in details like energy savings or sensor lifespans. As a UI Designer at deepblue networks I contributed to building, maintaining and documenting the design system and multiple components for the platform."/>
