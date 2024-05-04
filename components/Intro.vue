@@ -3,7 +3,7 @@
         <div class="text-lightmode-on-background dark:text-darkmode-on-background lg:max-w-[900px]">
             <p class="text-subtitle-mobile lg:text-subtitle-desktop">Daniel Büker</p>
             <p class="text-title-mobile lg:text-title-desktop">Digital Product Designer</p>
-            <p class="pt-12 text-body text-lightmode-on-background dark:text-darkmode-on-background">I build high quality user experiences and human interfaces with a keen eye for detail and solid technical expertise, currently at <a class="text-body-bold md:hover:opacity-70 transition ease-in-out duration-150 text-lightmode-primary dark:text-darkmode-primary" href="https://mobimeo.com/" target="_blank">Mobimeo</a>.</p>
+            <p class="pt-12 text-body text-lightmode-on-background dark:text-darkmode-on-background">I build high quality user experiences and human interfaces with a keen eye for detail and solid technical expertise, currently at <a class="text-body-bold md:hover:opacity-70 transition ease-in-out duration-150 text-lightmode-primary dark:text-darkmode-primary" href="https://www.ergosign.de/" target="_blank">Ergosign</a>.</p>
         </div>
     </div>
 </template>
