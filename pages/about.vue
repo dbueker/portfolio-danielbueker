@@ -1,5 +1,5 @@
 <script setup>
-import Portrait from '../assets/Portrait.jpg';
+import Portrait from '../assets/PortraitDaniel.jpg';
 </script>
 
 <template>
