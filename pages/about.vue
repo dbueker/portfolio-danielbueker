@@ -9,7 +9,7 @@ import Portrait from '../assets/PortraitDaniel.jpg';
             <p class="text-headline-mobile lg:text-headline-desktop">I'm Daniel 👋</p>
             <p class="text-body ">I like to design and think about everything that requires human interaction. I strive to make our lifes easier by creating interfaces and experiences that are as simple, reliable and fun as possible. If you have problems to be solved or just want to chat, feel free to <a class="text-body-bold text-lightmode-primary dark:text-darkmode-primary md:hover:opacity-70 transition ease-in-out duration-150" href="https://www.linkedin.com/in/danielbueker/" target="_blank">contact me</a><span class="text-body-bold">.</span></p>
           </div>
-          <img :src=Portrait alt="Portrait of Daniel" class="rounded w-full md:w-fit md:max-h-[640px]" />
+          <img :src=Portrait alt="Portrait of Daniel" class="rounded w-full md:max-w-[420px]" />
         </div>
         <Skillset />
         <HowIWork />
