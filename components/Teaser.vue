@@ -2,7 +2,7 @@
 defineProps(['color', 'image', 'subheadline', 'headline']);
 
 const colorVariants = {
-    lht: "bg-[#05164D] dark:bg-[#05164D] text-[#FFFFFF] dark:text-[#FFFFFF]",
+    lht: "bg-[#151B26] dark:bg-[#151B26] text-[#FFFFFF] dark:text-[#FFFFFF]",
     streckenagent: "bg-[#061350] dark:bg-[#152151] text-[#FFFFFF] dark:text-[#FFFFFF]",
     hek: "bg-gradient-to-tr from-[#F2F3F6] from-10% to-[#9CE0F3] text-[#1D1B20] dark:bg-gradient-to-tr dark:from-[#DDDFE9] dark:from-10% dark:to-[#68C1D9] dark:text-[#1D1B20]",
     lightelligence: "bg-gradient-to-br from-[#D52727] via-[#D45500] from-20% to-[#874DBA] text-[#FFFFFF] dark:bg-gradient-to-br dark:from-[#B54545] dark:via-[#BC5815] dark:from-20% dark:to-[#8565A2] dark:text-[#FFFFFF]dark:"
