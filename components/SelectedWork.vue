@@ -2,16 +2,12 @@
 defineProps(['color', 'image', 'subheadline', 'headline']);
 
 import DBStreckenagentTeaser from '../assets/DBStreckenagentTeaser.png';
-import Confidential from '../assets/confidential.png';
 import HEKTeaser from '../assets/HEKTeaser.png';
 import LightelligenceTeaser from '../assets/LightelligenceTeaser.png';
 </script>
 
 <template>
     <div class="px-6 mx-auto lg:max-w-screen-xl space-y-4">
-        <div>
-            <Teaser color="lht" :image=Confidential subheadline="Lufthansa Technik" headline="Digitizing aircraft engine maintenance"/>
-        </div>
         <div>
         <NuxtLink to="/db-streckenagent">
             <Teaser color="streckenagent" :image=DBStreckenagentTeaser subheadline="DB Streckenagent" headline="Compare mobility options at your location"/>
