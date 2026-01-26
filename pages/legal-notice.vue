@@ -6,8 +6,8 @@
     <Header subtitle="Information in accordance with Section 5 TMG" title="Legal notice"></Header>
     <div class="space-y-24 md:space-y-28 lg:space-y-32">
         <div class="px-6 space-y-6 md:max-w-screen-md md:mx-auto mb-24 md:mb-28 lg:mb-32">
-            <p class="text-lightmode-on-background dark:text-darkmode-on-background text-body " >Contact Information</p>
-                <div class="text-body  text-lightmode-on-background dark:text-darkmode-on-background">
+            <p class="text-lightmode-on-background text-body " >Contact Information</p>
+                <div class="text-body  text-lightmode-on-background">
                 <p>Mail: da.bueker@gmail.com</p>
                 <p>Website: danielbueker.com</p>
             </div>

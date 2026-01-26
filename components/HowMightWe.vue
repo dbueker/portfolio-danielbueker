@@ -24,13 +24,13 @@ const colorVariantsBottom = {
 </script>
 
 <template>
-  <div class="bg-lightmode-surface dark:bg-darkmode-surface px-6 py-20">
+  <div class="bg-lightmode-surface px-6 py-20">
     <div class="grid grid-rows-auto gap-4 md:max-w-screen-md md:mx-auto">
       <div v-for="modal in modals">
         <div class="text-on-utility-dark py-4 px-6 rounded-small-top" :class="colorVariantsTop[modal.color]">
           <p class="text-body-bold">{{ modal.headline }}</p>
         </div>
-        <div class="text-on-utility-light pt-4 pb-6 px-6 rounded-small-bottom w-full" :class=colorVariantsBottom[modal.color]>
+        <div class="text-on-utility-light pt-4 pb-6 px-6 rounded-small-bottom w-full" :class="colorVariantsBottom[modal.color]">
           <p class="text-body">{{ modal.text }}</p>
         </div>
       </div>
