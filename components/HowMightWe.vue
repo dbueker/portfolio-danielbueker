@@ -24,7 +24,7 @@ const colorVariantsBottom = {
 </script>
 
 <template>
-  <div class="bg-lightmode-surface px-6 py-20">
+  <div class="bg-surface px-6 py-20">
     <div class="grid grid-rows-auto gap-4 md:max-w-screen-md md:mx-auto">
       <div v-for="modal in modals">
         <div class="text-on-utility-dark py-4 px-6 rounded-small-top" :class="colorVariantsTop[modal.color]">

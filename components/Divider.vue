@@ -1,3 +1,3 @@
 <template>
-    <div class="h-px w-full bg-lightmode-border"></div>
+    <div class="h-px w-full bg-border"></div>
 </template>

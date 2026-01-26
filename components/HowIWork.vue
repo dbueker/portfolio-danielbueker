@@ -2,9 +2,9 @@
 </script>
 
 <template>
-    <div class="bg-lightmode-background px-6 py-20">
+    <div class="bg-background px-6 py-20">
         <div class="space-y-16 md:space-y-0 md:grid md:grid-cols-4 md:gap-20 lg:mx-auto lg:max-w-screen-xl">
-            <p class="text-chapter text-lightmode-on-background">How I work</p>
+            <p class="text-chapter text-on-background">How I work</p>
             <div class="space-y-10 md:col-span-3">
                 <div class="space-y-10">
                 <AboutContent headline="💬  Communication" text="Precise and honest communication plays a key role in every team, regardless of profession. I value honesty and integrity in any kind of relationship."/>

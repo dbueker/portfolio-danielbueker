@@ -4,7 +4,7 @@ import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <div class="bg-lightmode-background dark:bg-darkmode-background">
+  <div class="bg-background">
     <Menu />
       <NuxtPage />
     <Footer />
