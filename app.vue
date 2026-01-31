@@ -6,7 +6,7 @@ import Footer from './components/Footer.vue'
 <template>
   <div class="bg-background">
     <Menu />
-      <NuxtPage />
+    <NuxtPage />
     <Footer />
   </div>
 </template>

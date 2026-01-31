@@ -7,20 +7,20 @@ import LightelligenceTeaser from '../assets/LightelligenceTeaser.png';
 </script>
 
 <template>
-    <div class="px-6 mx-auto lg:max-w-screen-xl space-y-4">
+    <div class="px-6 grid grid-cols-1 md:grid-cols-2 gap-20 lg:max-w-screen-lg mx-auto">
         <div>
-        <NuxtLink to="/db-streckenagent">
-            <Teaser color="streckenagent" :image=DBStreckenagentTeaser subheadline="DB Streckenagent" headline="Compare mobility options at your location"/>
+        <NuxtLink to="/streckenagent">
+            <Teaser color="streckenagent" :image=DBStreckenagentTeaser subheadline="Deutsche Bahn" headline="Mobility App"/>
         </NuxtLink>
         </div>
-        <div>
+        <div class="md:row-span-2 md:mt-[240px]">
         <NuxtLink to="/hek-service-app">
-            <Teaser color="hek" :image=HEKTeaser subheadline="HEK Service App" headline="Digital companion for health insurance"/>
+            <Teaser color="hek" :image=HEKTeaser subheadline="HEK" headline="Insurance App"/>
         </NuxtLink>
         </div>
         <div>
         <NuxtLink to="/lightelligence">
-            <Teaser color="lightelligence" :image=LightelligenceTeaser subheadline="OSRAM Lightelligence" headline="Design system for a scalable IoT-platform"/>
+            <Teaser color="lightelligence" :image=LightelligenceTeaser subheadline="OSRAM" headline="IoT-platform"/>
         </NuxtLink>
         </div>
     </div>

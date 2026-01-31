@@ -10,9 +10,18 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['"Inter"', 'sans-serif']
+      sans: ['"Instrument Sans"', 'sans-serif'],
+      display: ['"BBH Bartle"', 'sans-serif']
     },
     fontSize: {
+      'display-mobile': ['32px', {
+        lineHeight: '120%',
+        fontWeight: '400',
+      }],
+      'display-desktop': ['48px', {
+        lineHeight: '120%',
+        fontWeight: '400',
+      }],
       'title-mobile': ['56px', {
         lineHeight: '105%',
         fontWeight: '600',
@@ -25,12 +34,12 @@ module.exports = {
       }],
       'subtitle-mobile': ['56px', {
         lineHeight: '105%',
-        fontWeight: '300',
+        fontWeight: '400',
         letterSpacing: '-0.04em',
       }],
       'subtitle-desktop': ['80px', {
         lineHeight: '105%',
-        fontWeight: '300',
+        fontWeight: '600',
         letterSpacing: '-0.04em',
         fontStretch: '150%'
       }],
@@ -39,30 +48,40 @@ module.exports = {
         fontWeight: '600',
         letterSpacing: '-0.025em',
       }],
-      'headline-desktop': ['56px', {
+      'headline-desktop': ['48px', {
         lineHeight: '110%',
         fontWeight: '600',
         letterSpacing: '-0.03em',
       }],
-      'chapter': ['18px', {
-        lineHeight: '140%',
-        fontWeight: '400',
-        letterSpacing: '-0.01em',
+      'chapter': ['28px', {
+        lineHeight: '120%',
+        fontWeight: '500',
+        letterSpacing: '0.0em',
       }],
-      'body': ['24px', {
+      'body': ['22px', {
         lineHeight: '160%',
         fontWeight: '400',
         letterSpacing: '0em',
       }],
-      'body-bold': ['24px', {
+      'body-semibold': ['22px', {
         lineHeight: '160%',
         fontWeight: '500',
+        letterSpacing: '0em',
+      }],
+      'body-bold': ['22px', {
+        lineHeight: '160%',
+        fontWeight: '600',
         letterSpacing: '0em',
       }],
       'body-small': ['16px', {
         lineHeight: '160%',
         fontWeight: '400',
         letterSpacing: '0em',
+      }],
+      'body-large': ['28px', {
+        lineHeight: '120%',
+        fontWeight: '400',
+        letterSpacing: '0.015em',
       }],
       'button': ['24px', {
         lineHeight: '110%',
@@ -71,18 +90,19 @@ module.exports = {
       }],
     },
     colors: {
-      //layout lightmode
-      'primary': '#2470EB',
-      'on-primary': '#FFFFFF',
-      'background': '#FFFFFF',
-      'on-background': '#1D1B20',
-      'on-background-subdued': '#808080',
+      //layout
+      'background': '#F0F0F0',
+      'on-background': '#000000',
+      'on-background-subdued': '#4D4D4D',
       'surface': '#F6F8F9',
-      'on-surface': '#1D1B20',
-      'surface-variant': '#1D1B20',
+      'on-surface': '#000000',
+      'surface-variant': '#000000',
       'on-surface-variant': '#FFFFFF',
       'on-surface-variant-subdued': '#808080',
-      'border': '#D7DCE1',
+      'red': '#FFDBB8',
+      'on-red': '#A6341B',
+      'blue': '#0D00FF',
+      'on-blue': '#FFFFFF',
       //utility
       'utility-red': '#EC0016',
       'utility-lightred': '#FEE6E6',

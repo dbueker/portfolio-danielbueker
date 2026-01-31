@@ -11,14 +11,14 @@ defineProps({
 </script>
 
 <template>
-    <div v-if="headline !== null" class="px-6 space-y-8 md:space-y-0 md:grid md:grid-cols-4 md:gap-20 lg:max-w-screen-lg lg:mx-auto">
-        <p class="text-chapter text-on-background md:pt-1">{{ headline }}</p>
-        <p class="text-body text-on-background md:col-span-3">{{ text }}</p>
+    <div v-if="headline !== null" class="px-6 gap-y-8 grid md:grid-cols-6 lg:max-w-screen-lg lg:mx-auto">
+        <p class="text-chapter text-on-background md:col-start-3 md:col-span-4">{{ headline }}</p>
+        <p class="text-body text-on-background md:col-start-3 md:col-span-4">{{ text }}</p>
     </div>
 
     <div v-else>
-      <div class="px-6 md:max-w-screen-md md:mx-auto">
-            <p class="text-body text-on-background">{{ text }}</p>
+      <div class="px-6 grid md:grid-cols-6 lg:max-w-screen-lg lg:mx-auto">
+            <p class="text-body text-on-background md:col-start-3 md:col-span-4">{{ text }}</p>
       </div>
     </div>
 </template>

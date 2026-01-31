@@ -3,31 +3,38 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Inter";
-    src: local("Inter Light"), local("Inter-Light"),
-    url("../fonts/Inter/Inter-Light.woff2");
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: local("Inter Regular"), local("Inter-Regular"),
-    url("../fonts/Inter/Inter-Regular.woff2");
+    font-family: "Instrument Sans";
+    src: url("../fonts/Instrument_Sans/InstrumentSans-Regular.ttf");
     font-weight: 400;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: "Inter";
-    src: local("Inter Medium"), local("Inter-Medium"),
-    url("../fonts/Inter/Inter-Medium.woff2");
+    font-family: "Instrument Sans";
+    src: url("../fonts/Instrument_Sans/InstrumentSans-Medium.ttf");
     font-weight: 500;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: "Inter";
-    src: local("Inter SemiBold"), local("Inter-SemiBold"),
-    url("../fonts/Inter/Inter-SemiBold.woff2");
+    font-family: "Instrument Sans";
+    src: url("../fonts/Instrument_Sans/InstrumentSans-SemiBold.ttf");
     font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Instrument Sans";
+    src: url("../fonts/Instrument_Sans/InstrumentSans-Bold.ttf");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "BBH Bartle";
+    src: url("../fonts/BBH_Bartle/BBHBartle-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
 }
 
 /* Menu Transition */

@@ -1,17 +1,23 @@
 <script setup>
-import Portrait from '../assets/PortraitDaniel.jpg';
+import Portrait from '../assets/PortraitDanielWide.jpg';
 </script>
 
 <template>
       <div>
-        <div class="px-6 mx-auto lg:max-w-screen-xl grid grid-cols-1 md:grid-cols-2 gap-y-20 md:gap-x-10 place-items-center place-content-center mb-24 md:mb-28 lg:mb-32 pt-20 text-on-background">
-          <div class="space-y-6">
-            <p class="text-headline-mobile lg:text-headline-desktop">I'm Daniel 👋</p>
-            <p class="text-body ">I like to design and think about everything that requires human interaction. I strive to make our lifes easier by creating interfaces and experiences that are as simple, reliable and fun as possible. If you have problems to be solved or just want to chat, feel free to <a class="text-body-bold text-primary md:hover:opacity-70 transition ease-in-out duration-150" href="https://www.linkedin.com/in/danielbueker/" target="_blank">contact me</a><span class="text-body-bold">.</span></p>
+        <div class="mx-auto lg:max-w-screen-xl space-y-32 md:gap-x-10 mb-32 pt-20 text-on-background">
+          <div class="text-on-background grid justify-items-center px-6">
+            <p class="font-display text-display-mobile lg:text-display-desktop text-center">Creating digital products since 2019</p>
           </div>
-          <img :src=Portrait alt="Portrait of Daniel" class="rounded w-full md:max-w-[420px]" />
+          <ImageComponent :image1=Portrait />
+          <div class="px-6 space-y-6 md:w-2/3">
+            <p class="text-headline-mobile lg:text-headline-desktop">I'm Daniel 👋</p>
+            <Divider color="onLight"/>
+            <p class="text-body pb-8 md:pb-10">I like to design and think about everything that requires human interaction. I strive to make our lifes easier by creating experiences that are as simple, reliable and fun as possible. I’d love to talk with you if you have problems to be solved or just want to chat.</p>
+            <a href="https://www.linkedin.com/in/danielbueker/" target="_blank"><Button color="onDark" text="Contact me"/></a>
+          </div>
         </div>
         <Skillset />
         <HowIWork />
+        <Experience />
       </div>
 </template>

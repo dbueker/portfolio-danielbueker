@@ -1,5 +1,4 @@
 <script setup>
-import ArrowTop from '../assets/ArrowTop.svg';
 
 function scrollToTop() {
     window.scrollTo({
@@ -10,5 +9,5 @@ function scrollToTop() {
 </script>
 
 <template>
-    <button @click="scrollToTop" class="flex whitespace-nowrap rounded-full py-4 px-6 space-x-2 text-button border-2 border-on-surface-variant-subdued text-on-surface-variant md:hover:scale-[104%] md:active:scale-[102%] transition ease-in-out duration-200"><span>Scroll to top</span><img :src=ArrowTop alt="Arrow facing upwards"></button>
+    <button @click="scrollToTop" class="whitespace-nowrap min-w-[80px] py-4 px-6 text-button text-on-surface-variant md:hover:text-on-surface-variant/70 md:active:scale-[96%] transition ease-in-out duration-200">Scroll to top</button>
 </template>
