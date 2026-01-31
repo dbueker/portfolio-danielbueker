@@ -3,7 +3,7 @@
         <div class="px-6 space-y-12 mb-16 max-w-screen-lg mx-auto text-on-surface-variant">
           <p class="text-body md:w-2/3">I love to team up for improving or designing new things from scratch. If you are curious about what we could do together, feel free to reach out!</p>
           <div class="flex space-x-8">
-            <a href="https://www.linkedin.com/in/danielbueker/" target="_blank"><Button color="onLight" text="Contact me" /></a>
+            <a href="https://www.linkedin.com/in/danielbueker/" target="_blank"><Button color="onLight" text="Contact" /></a>
             <ButtonBackToTop />
           </div>
         </div>
