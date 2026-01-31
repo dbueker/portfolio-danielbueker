@@ -43,7 +43,7 @@ const colorVariants = {
 
 <template>
   <div :class="[colorVariants[color]]">
-    <div v-if="columns==='1'">
+    <div v-if="columns==='1'" class="space-y-10">
       <Divider :color="color" />
       <div class="grid grid-cols-2 md:grid-cols-7 gap-2 md:gap-6">
         <p class="text-body-semibold col-span-2">{{ headline }}</p>
@@ -52,7 +52,7 @@ const colorVariants = {
       </div>
     </div>
 
-    <div v-else-if="columns==='2'">
+    <div v-else-if="columns==='2'" class="space-y-10">
       <Divider :color="color" />
       <div class="grid grid-cols-2 md:grid-cols-7 gap-2 md:gap-4">
         <p class="text-body-semibold col-span-2">{{ headline }}</p>
