@@ -12,7 +12,7 @@ import Portrait from '../assets/PortraitDanielWide.jpg';
           <div class="px-6 space-y-6 md:w-2/3">
             <p class="text-headline-mobile lg:text-headline-desktop">I'm Daniel 👋</p>
             <Divider color="onLight"/>
-            <p class="text-body pb-8 md:pb-10">7 years ago I started to design digital products and services. I have worked with startups, digital agencies and international organisations. My experience in product design, user research and project management allows me to create experiences that are simple, reliable and make lifes easier.</p>
+            <p class="text-body pb-8 md:pb-10">7 years ago I started to design digital products and services. I have worked with startups, digital agencies and international organisations. My experience in product design, user research and project management allows me to create elegant solutions for complex business problems.</p>
             <a href="https://www.linkedin.com/in/danielbueker/" target="_blank"><Button color="onDark" text="Contact me"/></a>
           </div>
         </div>
