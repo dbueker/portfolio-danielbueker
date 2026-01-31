@@ -2,12 +2,12 @@
 </script>
 
 <template>
-  <div>
+  <div class="mb-40">
     <Header subtitle="Information in accordance with Section 5 TMG" title="Legal notice"></Header>
     <div class="space-y-24 md:space-y-28 lg:space-y-32">
-        <div class="px-6 space-y-6 md:max-w-screen-md md:mx-auto mb-24 md:mb-28 lg:mb-32">
-            <p class="text-on-background text-body" >Contact Information</p>
-                <div class="text-body  text-on-background">
+        <div class="px-6 space-y-6 mb-24 md:mb-28 lg:mb-32 w-full mx-auto lg:max-w-screen-xl">
+                <div class="text-body text-on-background">
+                <p class="text-body-semibold">Contact Information</p>
                 <p>Mail: da.bueker@gmail.com</p>
                 <p>Website: danielbueker.com</p>
             </div>
