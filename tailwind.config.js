@@ -100,7 +100,7 @@ module.exports = {
       'on-surface-variant': '#FFFFFF',
       'on-surface-variant-subdued': '#808080',
       'red': '#FFDBB8',
-      'on-red': '#A6341B',
+      'on-red': '#9B290F',
       'blue': '#0D00FF',
       'on-blue': '#FFFFFF',
       //utility
