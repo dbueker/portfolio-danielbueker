@@ -24,7 +24,7 @@ import DBStreckenagent6B from "../assets/DBStreckenagent6B.jpg";
           <ImageComponent :image1=DBStreckenagent6A :image2=DBStreckenagent6B />
           <Chapter text="Figma added variables and conditions shortly before I created the protoypes for bike sharing. This allowed me to create the whole setup for testing on a single working day."/>
           <ImageComponentFullscreen :image1=DBStreckenagent5 />
-          <Chapter headline="My role" text="As a UI/UX designer at Mobimeo I was responsible for the experience of shared transport, closely working with an agile development team. In a design team of seven people we also collaboratively worked on a whitelable mobile app solution for public transport and the customer service software MobiSupport. The design team was lead by Christian Behrens and Sorin Oprisor."/>
+          <ChapterMyRole text="As a UI/UX designer at Mobimeo I was responsible for the experience of shared transport, closely working with an agile development team. In a design team of seven people we also collaboratively worked on a whitelable mobile app solution for public transport and the customer service software MobiSupport." credits="Christian Behrens, Sorin Oprisor, Inga Bartschick"/>
       </div>
     </div>
 </template>

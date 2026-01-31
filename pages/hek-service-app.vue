@@ -17,7 +17,7 @@ import HEK3B from "../assets/HEK3B.jpg";
             <Chapter headline="A digital companion for everybody" text="We embraced personal contact between client and health insurance and easy access to digital services. To achieve this we restructured the app, designed a modern chat feature, mailbox access for more official communication and a document tracking feature. To meet accessibility standards for a large audience, we relied on strong contrasts and integrated native elements where possible to make the elements scalable."/>
             <Chapter text="To make user the app is explorable for everyone, regardless of users being a member of the HEK or not, our concept included a basic and a smart version of the app. In the basic version users could use the app without registering at the HEK, minus the exclusive features."/>
             <ImageComponent :image1=HEK3A :image2=HEK3B />
-            <Chapter headline="My role" text="I joined as the UX/UI co-lead, together with my colleague Robert Stoof. We took care of the design process from start to finish and made a handover to an external development team. Further credits to Anja Schutz."/>
+            <ChapterMyRole text="I joined as the UX/UI co-lead at the beginning of the project. We took care of the design process from start to finish and handed over the results to an external development team." credits="Robert Stoof, Anja Schutz"/>
         </div>
     </div>
 </template>
