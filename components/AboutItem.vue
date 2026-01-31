@@ -11,7 +11,7 @@ const colorVariants = {
 <template>
     <div :class="['space-y-10 pb-10 md:pb-20', colorVariants[color]]">
         <Divider :color="color" />
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-y-2">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-x-8">
             <p class="text-body-semibold">{{ headline }}</p>
             <p class="text-body col-span-2">{{ text }}</p>
         </div>
