@@ -4,7 +4,7 @@ import Portrait from '../assets/PortraitDanielWide.jpg';
 
 <template>
       <div>
-        <div class="mx-auto lg:max-w-screen-xl space-y-32 md:gap-x-10 mb-32 pt-20 text-on-background">
+        <div class="mx-auto lg:max-w-screen-xl space-y-20 md:space-y-32 mb-32 md:gap-x-10 pt-20 text-on-background">
           <div class="text-on-background grid justify-items-center px-6">
             <p class="font-display text-display-mobile lg:text-display-desktop text-center">Creating digital products since 2019</p>
           </div>
