@@ -32,17 +32,6 @@ module.exports = {
         fontWeight: '600',
         letterSpacing: '-0.04em',
       }],
-      'subtitle-mobile': ['56px', {
-        lineHeight: '105%',
-        fontWeight: '400',
-        letterSpacing: '-0.04em',
-      }],
-      'subtitle-desktop': ['80px', {
-        lineHeight: '105%',
-        fontWeight: '600',
-        letterSpacing: '-0.04em',
-        fontStretch: '150%'
-      }],
       'headline-mobile': ['36px', {
         lineHeight: '110%',
         fontWeight: '600',
@@ -87,6 +76,11 @@ module.exports = {
         lineHeight: '110%',
         fontWeight: '400',
         letterSpacing: '0em',
+      }],
+      'menu': ['18px', {
+        lineHeight: '110%',
+        fontWeight: '500',
+        letterSpacing: '0.015em',
       }],
     },
     colors: {

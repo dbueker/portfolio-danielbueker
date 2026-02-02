@@ -7,10 +7,7 @@
         <div class="space-y-6 pb-10 md:w-2/3">
             <p class="text-headline-mobile lg:text-headline-desktop">Selected Work <span class="text-blue">(3)</span></p>
             <Divider color="onLight"/>
-            <p class="text-body pb-8 md:pb-10">Since 2019 I am creating digital products, ranging from consumer focused mobility apps to digitizing complex data flows for large companies. Here you can find a small showcase of my work. If you want to learn more about me feel free to visit the about page or reach out directly.</p>
-            <NuxtLink to="/about">
-            <Button color="onDark" text="Get to know me"/>
-            </NuxtLink>
+            <p class="text-body">Since 2019 I am creating digital products, ranging from consumer focused mobility apps to digitizing complex data flows for large organizations. Here you can find a small showcase of my work. If you want to learn more about me feel free to visit the about page or reach out directly.</p>
         </div>
     </div>
 </template>

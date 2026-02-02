@@ -9,5 +9,8 @@ function scrollToTop() {
 </script>
 
 <template>
-    <button @click="scrollToTop" class="whitespace-nowrap min-w-[80px] py-4 text-button text-on-surface-variant md:hover:text-on-surface-variant/70 md:active:scale-[96%] transition ease-in-out duration-200">Scroll to top</button>
+    <button @click="scrollToTop" class="group h-10 relative overflow-hidden px-2 py-1 transition ease-in-out md:active:scale-[98%]">
+        <span class="absolute inset-0 bg-on-surface-variant md:group-hover:bg-background translate-x-[-100%] md:group-hover:translate-x-0 transition duration-[0.25s] ease-in-out"></span>
+        <span class="text-button relative z-10 text-on-surface-variant md:group-hover:text-on-background transition duration-[0.25s] ease-in-out">Back to top</span>
+    </button>
 </template>
